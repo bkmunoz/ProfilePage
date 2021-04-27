@@ -1,0 +1,268 @@
+.navbar {
+        color: white;
+        font-family: Roboto;
+}
+
+.nav {
+                display: flex;
+                background-color: black;
+                justify-content: space-between;
+                color: white;
+}
+
+.nav-title {
+                                display:flex;
+                                margin: 0px;
+                                padding: 0px;
+                                color: white;
+}
+
+.nav-links {
+                        display: flex;
+                        list-style-type: none;
+                        margin: 10px;
+                        margin-left: 135px;
+                        display: inline-block;
+                        color: white;
+}
+
+.nav-links li {
+                                margin: 0px 10px;
+                                padding-top: 15px;
+                                vertical-align: center;
+                                display: inline-block;
+                                color: white;
+}
+
+.nav-links li a {
+                                text-decoration: none;
+                                color: white;
+}
+
+.btn {
+                        background-color:#17a2b8;
+                        height: 30px;
+                        width: 90px;
+                        font-size: 16px;
+                        padding: 0px;
+                        box-shadow: 3px 3px 0px black;
+                        color: white;
+                        justify-content: space-between;
+                        margin: 30px 135px;
+}
+
+/* base page */
+
+.main {
+        display: flex;
+}
+
+/* column1 */
+
+.columns {
+                flex: 1;
+                padding: 20px;
+                margin: 10px -10px 0px 0px;
+}
+
+.container {
+                        border: 2px solid grey;
+                        margin: 40px 0px 40px 300px;
+                        width: 700px;
+                        height: 430px;
+                        font-family: cursive;
+}
+
+.top {
+                                height: 150px;
+                                width: 700px;
+                                background-color: #17a2b8;
+                                margin: 0px;
+}
+
+.top img {
+                                        position: relative;
+                                        margin: 0px 25px;
+                                        top: 75px;
+                                        height: 125px;
+                                        width: 125px;
+                                        border: 5px solid black;
+                                        border-radius: 50%;
+}
+
+.bottom {
+                                height: 220px;
+                                width: 700px;
+                                margin: 0px 25px;
+}
+
+.bottom h1 {
+                                        margin: 70px 0px 15px 0px;
+}
+
+.map {
+                                        display: inline-block;
+                                        object-position: absolute;
+                                        width: 15px;
+                                        height: 25px;
+}
+
+.bottom h3 {
+                                        display: inline-block;
+                                        margin: 0px 0px 10px 0px;
+}
+
+.bottom p {
+                                        object-position: absolute;
+                                        margin: 0px;
+}
+
+.gear {
+                                        height: 20px;
+                                        width: 20px;
+}
+
+.bottom a {
+                                        margin-top: 15px;
+                                        display: inline-block;
+}
+
+.contain3 {
+                        border: 2px solid grey;
+                        margin: 40px 0px 40px 300px;
+                        width: 700px;
+                        height: 200px;
+                        font-family: cursive;
+}
+.education {
+                                background-color: #333333;
+}
+
+.edu{
+                                        padding: 15px;
+                                        background-color: #333333;
+                                        color: white;
+                                        font-weight: lighter;
+                                        margin: 0px;
+}
+
+.bottom p {
+                                font-family: cursive;
+}
+
+.bottom h2 {
+                                        font-family: Roboto;
+                                        margin: 10px 0px;
+}
+
+.bottom h5 {
+                                        opacity: 75%;
+                                        margin: 10px 0px;
+}
+
+
+
+/* column2 */
+
+.contain2 {
+                        border: 2px solid grey;
+                        font-family: cursive;
+                        margin: 40px 0px 0px 100px;
+                        vertical-align: top;
+                        width: 350px;
+}
+
+.reqbar {
+                                background-color: #333333;
+}
+
+.requests {
+                                        padding: 15px;
+                                        background-color: #333333;
+                                        color: white;
+                                        font-weight: lighter;
+                                        margin: 0px;
+                                        display: inline-block;
+}
+
+.span {
+                                        background-color: lightgray;
+                                        color:grey;
+                                        display: inline-block;
+                                        border: 2px solid black;
+                                        border-radius: 50%;
+                                        margin-left: 20px;
+                                        padding: 0px 10px;
+}
+
+.reqid {
+                                padding: 20px 0px;
+                                width: 350px;
+                                margin: 0px;
+}
+
+.ul {
+                                list-style-type: none;
+                                margin: 0px;
+}
+
+.reqid li {
+                                        list-style-type: none;
+                                        margin: 0px;
+                                        width: 350px;
+}
+
+.reqid p {
+                                        display: inline-block;
+                                        margin: 0px 50px 0px 20px;
+                                        font-size: 20px;
+                                        text-align: center;
+}
+
+.pic {
+                                        display: inline-block;
+                                        border-radius: 50%;
+                                        height: 70px;
+                                        width: 70px;
+                                        margin-left: 20px;
+}
+
+.accept {
+                                        display: inline-block;
+                                        border-radius: 50%;
+                                        height: 40px;
+                                        width: 40px;
+}
+
+.reject{
+                                        display: inline-block;
+                                        border-radius: 50%;
+                                        height: 40px;
+                                        width: 40px;
+}
+
+.contain4 {
+                        font-family: cursive;
+                        margin: 40px 0px 40px 100px;
+                        vertical-align: top;
+                        width: 350px;
+                        border: 2px solid grey;
+}
+
+.connected {
+                                background-color: #333333;
+                                color: white;
+                                font-weight: lighter;
+                                width: 350px;
+                                margin: 0px;
+}
+
+.link {
+                                border-top: 2px solid grey;
+                                font-family: cursive;
+                                margin: 0px;
+                                vertical-align: top;
+                                width: 335px;
+                                padding: 10px 0px 10px 15px;
+                                font-size: 20px;
+}
